@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#031225">
+  <title>IRRA-TOOLS MASTER</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="window-brand"><span class="brand-mark">✿</span> IRRA-TOOLS MASTER</div>
+      <div class="window-actions" aria-hidden="true"><span>—</span><span>□</span><span>×</span></div>
+    </header>
+
+    <aside class="sidebar">
+      <div class="logo"><span class="logo-icon">⚙</span><span>IRRA-TOOLS<br>MASTER</span></div>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <button class="nav-item active" data-view="inicio"><span>⌂</span>Inicio</button>
+        <button class="nav-item" data-view="documentos"><span>▤</span>Documentos</button>
+        <button class="nav-item" data-view="imagenes"><span>▧</span>Imágenes</button>
+        <button class="nav-item" data-view="dinero"><span>▦</span>Dinero</button>
+        <button class="nav-item" data-view="vida"><span>▣</span>Vida diaria</button>
+        <button class="nav-item" data-view="trabajo"><span>▰</span>Trabajo</button>
+        <button class="nav-item" data-view="privacidad"><span>⬡</span>Privacidad</button>
+        <div class="nav-separator"></div>
+        <button class="nav-item" data-view="favoritos"><span>☆</span>Favoritos</button>
+        <button class="nav-item" data-view="recientes"><span>◷</span>Recientes</button>
+        <div class="nav-separator"></div>
+        <button class="nav-item" data-view="ajustes"><span>⚙</span>Ajustes</button>
+        <button class="nav-item" data-view="acerca"><span>ⓘ</span>Acerca de</button>
+      </nav>
+      <p class="sidebar-note">Herramientas reales,<br>para tu día a día.</p>
+    </aside>
+
+    <main class="main-content">
+      <div class="toolbar">
+        <label class="searchbox"><span>⌕</span><input id="search" type="search" placeholder="Buscar una herramienta..." autocomplete="off"></label>
+        <div class="toolbar-actions">
+          <button class="icon-button" id="themeToggle" title="Cambiar tema" aria-label="Cambiar tema">☾</button>
+          <span class="language">◎ ES⌄</span>
+        </div>
+      </div>
+      <div id="content" class="content-area"></div>
+      <footer class="footer"><span>IRRA-TOOLS MASTER&nbsp; v1.0</span><span class="footer-motto">Herramientas simples. Soluciones reales.</span><span class="ready"><i></i> Listo</span></footer>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
